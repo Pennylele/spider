@@ -1,0 +1,65 @@
+<style type="text/css">
+
+li{
+	list-style:none;
+	margin:10px;
+	display: inline;
+}
+
+h1{
+	color:#f26822;
+	background-color:black;
+	padding:20px;
+	margin:0;
+}
+
+ul{
+	background-color: #e0e67c;
+	padding:10px;
+	margin:0;
+	border:5px solid black
+}
+
+a {
+	text-decoration: none;
+	color:#2964ae;
+	padding-left: 20px;
+}
+
+a:hover{
+	border-bottom: 1px solid #2964ae;
+}
+
+
+li:last-child > a{
+	font-weight:bold;
+}
+
+.container{
+	width:100%;
+	margin:auto;
+}
+
+aside{
+	float:right;
+	background-color:#aaaaaa;
+	width:25%;
+	border:5px solid black
+}
+
+.clear-color{
+	background-color:white;
+}
+
+section{
+	float:left;
+	width:75%;
+	border:none;
+	padding:20px;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
